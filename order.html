@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            height: 120px;
+            background: #E5012B;
+        }
+
+        h1 {
+            color: #fff;
+            font-family: "Khand", sans-serif;
+            font-weight: 600;
+            font-size: 58px;
+            margin-left: 10px;
+        }
+
+        .header_2 {
+            font-family: "Poppins", sans-serif;
+            font-size: 14px;
+            margin-left: 12px;
+            margin-top: -20px;
+        }
+
+        .cart {
+            width: 500px;
+            height: 500px;
+            border: 1px solid #000;
+            border-radius: 15px;
+            margin-top: 100px;
+            margin-left: 60px;
+        }
+
+        .top_seller_img_txt {
+            font-family: "Oswald", sans-serif;
+            font-size: 28px;
+            padding-top: 15px;
+            padding-left: 120px;
+        }
+
+        .top_seller_img_box {
+            width: 150px;
+            height: 50px;
+            background: #fff;
+            border: #000 solid 1px;
+            border-radius: 12px;
+            margin-left: 120px;
+            margin-top: 30px;
+        }
+
+        .top_seller_img_box_txt {
+            padding-left: 19px;
+            padding-top: 12px;
+            font-family: "Oswald", sans-serif;
+            font-size: 20px;
+            color: #E5012B;
+        }
+
+        .top_seller_img_box:hover {
+            cursor: pointer;
+            background: #b40021;
+            color: #fff;
+            border: #000 1px solid;
+        }
+
+        .top_seller_img_box_txt:hover {
+            cursor: pointer;
+            color: #fff;
+        }
+
+        .top_seller_img1 {
+            margin-left: 90px;
+            margin-top: 10px;
+        }
+
+        .top_seller_img_price {
+            margin-left: 200px;
+            font-size: 24px;
+            margin-top: 5px;
+        }
+
+        .con2 {
+            width: 800px;
+            height: 500px;
+            background: #f4f3f3;
+            margin-left: 700px;
+            margin-top: -500px;
+            border-radius: 10px;
+            border: #000 1px solid;
+        }
+
+        .text {
+            color: #E5012B;
+            font-family: "Khand", sans-serif;
+            font-weight: 600;
+            font-size: 38px;
+            margin-left: 180px;
+            margin-top: 30px;
+        }
+
+        .box1 {
+            width: 700px;
+            height: 60px;
+            border: 1px solid #000;
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+        
+        .box:hover{cursor: pointer;}
+
+        .box2 {
+            width: 700px;
+            height: 60px;
+            border: 1px solid #000;
+            margin-top: 80px;
+            margin-left: 50px;
+            background: #E5012B;
+            
+        }
+        .box2:hover{cursor: pointer;
+            background: #b40021;}
+
+        .pay {
+            font-family: "Poppins", sans-serif;
+            font-size: 24px;
+            color: #f4f3f3;
+            margin-left: 300px;
+            margin-top: 10px;
+        }
+
+        .credit-card{margin-left: 330px; margin-top: 10px; color: #E5012B;}
+        .apple{margin-left: 330px; margin-top: 10px; color: #E5012B;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><strong>CHECKOUT</strong></h1>
+        <p class="header_2"><strong>Cart>Checkout</strong></p>
+    </header>
+    <div class="con1">
+        <div class="cart">
+            <div class="con3_box1">
+                <img class="top_seller_img1" src="./6.png" alt="">
+                <p class="top_seller_img_txt"><strong>5PC Fried Chicken</strong></p>
+                <p class="top_seller_img_price"><strong>$6.99</strong></p>
+            </div>
+        </div>
+        <div class="con2">
+            <p class="text"><strong>SELECT YOUR PAYMENT METHOD</strong></p>
+            <div class="box1"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="credit-card" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+              </svg></div>
+            <div class="box1"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="apple" viewBox="0 0 16 16">
+                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+              </svg></div>
+            <div class="box2">
+                <p class="pay"><strong>PAY NOW</strong></p>
+            </div>
+        </div>
+
+</body>
+
+</html>
